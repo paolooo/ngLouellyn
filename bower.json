@@ -1,0 +1,31 @@
+{
+  "name": "ngMobile04",
+  "version": "0.0.1",
+  "authors": [
+    "Nino Paolo <o70vd@yahoo.com>"
+  ],
+  "description": "Angular Mobile Layout 04",
+  "keywords": [
+    "angular",
+    "mobile",
+    "ng",
+    "mobile",
+    "layout",
+    "ngmobile"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.0-rc.3",
+    "angular-route": "~1.2.0-rc.3",
+    "angular-animate": "~1.2.0-rc.3",
+    "angular-touch": "~1.2.0-rc.3"
+  }
+}
