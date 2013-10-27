@@ -1,6 +1,6 @@
-# Staitec Builder JS
+# ngLouellyn
 
-Staitec Builder is a static website builder that uses the power of nodejs + packages such as jade, stylus, coffeescript, and grunt to build "Static Web Site" in no time.
+ngLouellyn  - Another tool that will help you build cool angular web apps and modules.
 
 ## Installation
 
@@ -22,6 +22,7 @@ First, make sure you have installed NodeJS in your computer. If you haven't, you
 
 ```bash
 $ npm install
+$ grunt compile
 $ grunt start
 ```
 
@@ -30,15 +31,19 @@ $ grunt start
 $ npm install
 ```
 
-2. Run Grunt watch
+2. Compile jade, stylus, and coffee-scripts.
+```bash
+$ grunt compile
+```
+
+3. Run Grunt watch
 ```bash
 $ grunt start
 ```
 
-3. Navigate to `http://localhost:3333/`
+4. Navigate to `http://localhost:3333/`
 
 
 ## TODO
 
 1. Add test runner
-2. Change name to LouellynJS
