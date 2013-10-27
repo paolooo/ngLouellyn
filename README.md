@@ -41,3 +41,4 @@ $ grunt start
 ## TODO
 
 1. Add test runner
+2. Change name to LouellynJS
