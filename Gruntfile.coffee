@@ -36,6 +36,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   
   grunt.registerTask 'default', ['livereload-start', 'connect']
+  grunt.registerTask 'compile', ['jade', 'stylus', 'coffee']
   grunt.registerTask 'start:server', ->
     grunt.util.spawn
       cmd: 'coffee'
