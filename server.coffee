@@ -2,7 +2,6 @@
 
 connect = require 'connect'
 http = require 'http'
-https = require 'https'
 url = require 'url'
 
 pkg = require __dirname + '/package.json'
