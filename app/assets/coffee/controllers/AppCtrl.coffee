@@ -1,4 +1,4 @@
-appCtrl.controller 'AppCtrl', [
+app.controller 'AppCtrl', [
   '$scope'
   '$log'
   ($scope, $log) ->

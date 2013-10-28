@@ -1,1 +1,0 @@
-appFilters = angular.module('filters', [])

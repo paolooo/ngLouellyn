@@ -7,13 +7,9 @@
       "<%= pkg.config.path.dest %>/js/app.js": [
         "<%= pkg.config.path.source %>/coffee/app.coffee",
         "<%= pkg.config.path.source %>/coffee/router.coffee",
-        "<%= pkg.config.path.source %>/coffee/controllers/baseCtrl.coffee",
         "<%= pkg.config.path.source %>/coffee/controllers/**/*.coffee",
-        "<%= pkg.config.path.source %>/coffee/directives/baseDirective.coffee",
         "<%= pkg.config.path.source %>/coffee/directives/**/*.coffee",
-        "<%= pkg.config.path.source %>/coffee/filters/baseFilter.coffee",
         "<%= pkg.config.path.source %>/coffee/filters/**/*.coffee",
-        "<%= pkg.config.path.source %>/coffee/services/baseService.coffee",
         "<%= pkg.config.path.source %>/coffee/services/**/*.coffee",
         "<%= pkg.config.path.source %>/coffee/**/*.coffee"
       ]

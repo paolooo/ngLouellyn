@@ -1,7 +1,1 @@
-app = angular.module('App', [
-  'router'
-  'controllers'
-  'filters'
-  'directives'
-  'services'
-])
+app = angular.module('App', ['router'])
