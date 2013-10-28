@@ -1,0 +1,1 @@
+appDirective = angular.module('directives', [])

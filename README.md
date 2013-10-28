@@ -60,4 +60,15 @@ $ grunt start
 
 ## TODO
 
-1. Add test runner
+* Add normalize-css ( $ bower install normalize-css )
+* Add test runner
+* Add grunt shell
+* Add `grunt install` - bower install and grunt compile
+
+- 10/28/2013
+* [done] Fix layout/_main.jade
+* [done][ Fix angular path in layout/_main.jade
+* [done] Remove public/css
+* [done] change and improve stylus config
+* [done] change and improve coffee-script config
+* [done] add js router.coffee, directives, servies, filters, and models

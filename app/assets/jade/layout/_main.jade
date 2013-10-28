@@ -1,32 +1,30 @@
 !!! 5
-html(xmlns:ng="http://angularjs.org", lang="en", ng-app="App")
+html(xmlns:ng="http://angularjs.org", lang="en", data-ng-app="App")
   head
     meta(charset="utf-8")
     meta(name="format-detection", content="telephone=no")
     meta(name="viewport", content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=medium-dpi")
 
-    title ngMobile04 
+    title ngLouellyn
 
     link(rel="stylesheet", href="/css/app.css")
     block stylesheet
 
-  body(role="application")
-    header#hd
-      img.logo(src="img/logo-17x25.png")
+  body(data-role="application")
 
-      div(ng-controller="NavCtrl")
-        nav-menu
+    div(data-ng-controller="AppCtrl")
+      header.toolbar#hd
 
-    section(role="sidebar")
-      h2 Sidebar
+      section.sidebar(data-role="sidebar")
+        h2 Sidebar
 
-    section#bd(role="main")
-      div#main(ng-view)
+      section#bd(data-role="main")
+        div#main(data-ng-view="")
 
-    footer
+      footer.toolbar#ft
 
     script(src="/vendor/angular/angular.min.js", type='text/javascript')
-    script(src="/vendor/angular/angular-route.min.js", type='text/javascript')
+    script(src="/vendor/angular-route/angular-route.min.js", type='text/javascript')
     script(src="/js/app.js", type='text/javascript')
 
     block javascript

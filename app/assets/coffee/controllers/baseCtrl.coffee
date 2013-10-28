@@ -1,0 +1,1 @@
+appCtrl = angular.module('controllers', [])

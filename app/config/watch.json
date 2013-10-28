@@ -10,5 +10,8 @@
   "stylus": {
     "files": "**/*.styl",
     "tasks": ["stylus"]
+  },
+  "options": {
+    "livereload": true
   }
 }
